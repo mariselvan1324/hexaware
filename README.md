@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 # Demo URL
 Live Website(http://ec2-52-0-192-22.compute-1.amazonaws.com/) 
-![ScreenShot](https://github.com/mariselvan1324/hexaware/blob/mari/hexaware.png)
+![ScreenShot](https://codetofun.s3.ap-south-1.amazonaws.com/large/star-pattern-11.webp)
 
 ## Getting Started
 
