@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Demo URL
+Live Website(http://ec2-52-0-192-22.compute-1.amazonaws.com/) 
+
 ## Getting Started
 
 First, run the development server:
