@@ -1,0 +1,59 @@
+.myFooter {
+    display: flex;
+    flex-direction: column;
+
+    .fSample {
+        background-color: #33383e;
+        color: #fff;
+        padding: 10px 5px;
+        text-align: center;
+    }
+
+    .fBody {
+        padding: 60px 15px;
+        background-color: #1f252b;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .gradientBorder {
+        max-width: 300px;
+        height: 30px;
+        border-width: 0px 0px 10px 0px;
+        /* Set the bottom border width */
+        border-style: solid;
+        border-image: linear-gradient(to right, #fff, #1f252b);
+        /* Define your gradient */
+        border-image-slice: 1;
+        /* Ensure the gradient covers the entire border */
+    }
+
+
+    .fFooter {
+        text-align: center;
+        padding: 10px 5px;
+        font-size: 13px;
+        color: #fff;
+        background-color: #1f252b;
+    }
+
+    .fSection {
+        min-width: 35%;
+        margin: 15px;
+
+        h2 {
+            color: #fff;
+            border-bottom: 2px solid #fff;
+        }
+
+        .fFlexParent {
+            color: #7b7e82;
+
+            div {
+                padding: 5px 0;
+            }
+        }
+
+    }
+}

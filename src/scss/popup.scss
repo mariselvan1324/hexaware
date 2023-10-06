@@ -1,0 +1,115 @@
+.myTable{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+
+    th, td {
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: left;
+      }
+}
+
+.container{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+    z-index: 99999;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+    overflow-y: auto;
+    max-height: 100vh;
+    
+}
+
+.close{
+ position: absolute;
+ top:3%;
+ right:3%;
+ cursor: pointer;
+}
+
+.popContent{
+    margin:40px 0 0 0;
+    .parent{
+      width:100%;
+      font-size:0;
+    }
+
+    .child,.heading{
+      font-size:16px;
+     display:inline-block;
+      width:calc(50% - 2px);
+
+    }
+
+    .heading{
+        width:175px;
+    }
+
+
+}
+
+
+
+@media(max-width: 900px) {
+
+    .card{
+        max-width:400px;
+    }
+}
+
+@media(max-width: 550px) {
+
+    .card{
+        max-width:100%;
+        border-radius: 0;
+    }
+    
+
+    .myTable{
+        tr {
+            display: block;
+          }
+
+          tr:nth-child(even) {
+            background-color: #E7E9EB;
+          }
+
+          tr:nth-child(odd) {
+            background-color: #fff;
+          }
+        
+          /* Give some spacing between table cells */
+          td, th {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            border:none;
+          }
+
+          td{
+            padding: 8px 16px;
+          }
+    }
+}
+
+
+
+
+@media(max-width: 300px) {
+.child,.heading{
+    width:100%;
+  }
+}

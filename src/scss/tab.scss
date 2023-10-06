@@ -1,0 +1,60 @@
+.myTab {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.tabContainer {
+    display: flex;
+    border: 1px solid #8c8c8c;
+    width: fit-content;
+    border-radius: 5px;
+    overflow: hidden;
+
+    .tabInd {
+        padding: 3px 5px;
+        display: flex;
+        font-size: 18px;
+        cursor: pointer;
+        min-width: 100px;
+        text-align: center;
+        border-right: 1px solid #8c8c8c;
+        background-color: #fff;
+
+
+        &:last-child {
+            border-right: none;
+            /* Remove the right border */
+        }
+    }
+
+    .tabActive {
+        padding: 3px 5px;
+        display: flex;
+        font-size: 18px;
+        cursor: pointer;
+        min-width: 100px;
+        text-align: center;
+        border-right: 1px solid #8c8c8c;
+        background-color: #fff;
+        background-color: #7a52cc;
+        color: #fff;
+
+        &:last-child {
+            border-right: none;
+            /* Remove the right border */
+        }
+    }
+
+}
+
+.iconInd {
+    display: flex;
+    padding: 3px 6px;
+}
+
+.iconText {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
